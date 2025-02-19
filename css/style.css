@@ -72,6 +72,25 @@ a:focus {
 }
 
 
+::-webkit-scrollbar {
+    width: 6px; /* Adjust scrollbar width */
+}
+
+::-webkit-scrollbar-track {
+    background: #f8f8f8; /* Light background */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #030f27; /* Yellow scrollbar */
+    border-radius: 10px; /* Rounded edges */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #030f27; /* Slightly darker yellow on hover */
+}
+
+
+
 /**********************************/
 /********** Top Bar CSS ***********/
 /**********************************/
